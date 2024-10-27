@@ -117,16 +117,16 @@ QPushButton#ExitButtons:hover{
 """
 
 
-TITLE: str = "Throne and Liberty - Automated Group Former"
+TITLE: str = "Throne and Liberty - Automatischer Gruppenbilder"
 
 
 DATABASEWINDOW_WIDTH: int = 1100
 DATABASEWINDOW_HEIGHT: int = 800
-DATABASEWINDOW_HEADER: str = "Imperia Sludge - Datenbankverwaltung"
+DATABASEWINDOW_HEADER: str = "Datenbankverwaltung"
 
 MAINWINDOW_WIDTH: int = 1100
 MAINWINDOW_HEIGHT: int = 800
-MAINWINDOW_HEADER: str = "Imperia Sludge - Gruppenverwaltung"
+MAINWINDOW_HEADER: str = " Gruppenverwaltung"
 
 
 SEPARATOR: str = " || "
