@@ -118,8 +118,6 @@ def form_groups(tanks: list, heals: list, dps: list) -> list[list]:
                 group_list.append(group)
                 
                 
-                
-            print("Da hast du wohl was in der Theorie vergessen! ;)")
 
 
     else:   # Not all groups ful
