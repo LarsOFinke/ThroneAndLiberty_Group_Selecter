@@ -1,4 +1,4 @@
-import sys, gui
+import sys, gui, math
 from PyQt5.QtWidgets import QApplication
 
 
@@ -121,7 +121,7 @@ def form_groups(tanks: list, heals: list, dps: list) -> list[list]:
 
 
     else:   # Not all groups ful
-        group_count:int = int(round(player_count / GROUPSIZE))
+        group_count:int = math.floor(player_count / GROUPSIZE) + 1    # Calculate the total amount of groups by rounding down and adding +1 for last group
 
         if amount_tanks % group_count == 0 and amount_heals % group_count == 0: # 1 Heal and Tank each group
             for i in range(group_count-1):
